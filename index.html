@@ -54,6 +54,14 @@
 
 
   <header class="masthead">
+    <div id="particles-js"></div>
+    <script src="vendor/particlesJS/particles.js"></script>
+    <script>
+    particlesJS.load('particles-js', 'particles.json',
+        function(){
+            console.log("particles.json loaded...");
+        });
+    </script>
     <div class="container h-100">
       <div class="row h-100">
         <div class="col my-auto">
@@ -61,21 +69,6 @@
             <h1 class="mb-5">GovAiLab</h1>
           </div>
         </div>
-        <!-- <div class="col-lg-5 my-auto">
-          <div class="device-container">
-            <div class="device-mockup iphone6_plus portrait white">
-              <div class="device">
-                <div class="screen">
-                 Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else!
-                  <img src="img/demo-screen-1.jpg" class="img-fluid" alt="">
-                </div>
-                <div class="button">
-                   You can hook the "home button" to some JavaScript events or just remove it
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> -->
       </div>
     </div>
   </header>
@@ -85,7 +78,7 @@
       <div class="section-heading text-center">
         <h2 style="color:#aa1352;">Meist</h2>
         <hr>
-        <p style="text-align: justify;">GovAiLab - pikemalt Goverment Technology and Artificial Intelligence Lab - fookus on aidata riigiasutustel katsetada uusi tehnoloogilisi lahendusi, mis toetaksid asutuse äriliste eesmärkide edukamat täitmist. Labor on partneriks Asutuste juhtidele, äripoole inimestele ja tehnilistele spetsilistidele paremate valikute tegemisel, tehnoloogia visioneerimisel ning tehisintellekti lahenduste katsetamisel. Samuti võimaldab labor ideede algfaasis katsetada erinevaid lahendusi protptüüpide loomisega.</p>
+        <p style="text-align: justify;">GovAiLab - pikemalt Goverment Technology and Artificial Intelligence Lab - fookus on aidata riigiasutustel katsetada uusi tehnoloogilisi lahendusi, mis toetaksid asutuse äriliste eesmärkide edukamat täitmist. Labor on partneriks asutuste juhtidele, äripoole inimestele ja tehnilistele spetsilistidele paremate valikute tegemisel, tehnoloogia visioneerimisel ning tehisintellekti lahenduste katsetamisel. Samuti võimaldab labor ideede algfaasis katsetada erinevaid lahendusi protptüüpide loomisega.</p>
       </div>
     </div>
   </section>
@@ -122,6 +115,9 @@
       </ul> -->
     </div>
   </footer>
+
+<!-- Import Particles -->
+
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>

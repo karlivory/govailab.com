@@ -61,6 +61,9 @@ function modules() {
   // jQuery Easing
   var jqueryEasing = gulp.src('./node_modules/jquery.easing/*.js')
     .pipe(gulp.dest('./vendor/jquery-easing'));
+  // particlesJS
+  var particlesJS = gulp.src('./node_modules/particles.js/particles.js')
+    .pipe(gulp.dest('./vendor/particlesJS'))
   // jQuery
   var jquery = gulp.src([
       './node_modules/jquery/dist/*',
@@ -72,7 +75,7 @@ function modules() {
     .pipe(gulp.dest('./vendor/simple-line-icons/fonts'));
   var simpleLineIconsCSS = gulp.src('./node_modules/simple-line-icons/css/**')
     .pipe(gulp.dest('./vendor/simple-line-icons/css'));
-  return merge(bootstrap, fontAwesomeCSS, fontAwesomeWebfonts, jquery, jqueryEasing, simpleLineIconsFonts, simpleLineIconsCSS);
+  return merge(bootstrap, fontAwesomeCSS, fontAwesomeWebfonts, jquery, jqueryEasing, particlesJS, simpleLineIconsFonts, simpleLineIconsCSS);
 }
 
 // CSS task
