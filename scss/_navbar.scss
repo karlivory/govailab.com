@@ -5,11 +5,11 @@
     @include transition-all;
     @include heading-font;
     .navbar-brand {
-        color: $theme-primary;
+        color: #FFFFFF;
         @include heading-font;
         &:hover,
         &:focus {
-            color: darken($theme-primary, 10%);
+            color: darken(#FFFFFF, 10%);
         }
     }
     .navbar-toggler {
