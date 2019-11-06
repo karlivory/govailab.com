@@ -2,11 +2,15 @@
 .bg-primary {
     background: $theme-primary;
     background: -webkit-linear-gradient($theme-primary, darken($theme-primary, 5%));
-    background: linear-gradient($theme-primary, darken($theme-primary, 5%));
+    background: linear-gradient(to left, (#000000, $theme-primary));
 }
 
 .text-primary {
     color: $theme-primary;
+}
+
+.bg_taltech_secondary {
+  background: #e4067e
 }
 
 .no-gutter > [class*='col-'] {

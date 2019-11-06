@@ -341,7 +341,6 @@ section.contact ul.list-social li a {
   display: block;
   width: 80px;
   height: 80px;
-  color: white;
   border-radius: 100%;
 }
 
@@ -396,11 +395,15 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 
 .bg-primary {
   background: #aa1352;
-  background: linear-gradient(#aa1352, #931047);
+  background: linear-gradient(to left, #000000, #aa1352);
 }
 
 .text-primary {
   color: #aa1352;
+}
+
+.bg_taltech_secondary {
+  background: #e4067e;
 }
 
 .no-gutter > [class*='col-'] {
