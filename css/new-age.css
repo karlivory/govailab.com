@@ -59,6 +59,29 @@ section h2 {
   font-size: 50px;
 }
 
+.bg_taltech_secondary {
+  background: #e4067e;
+}
+
+.bg_taltech_tertiary {
+  background: #FFFFFF;
+}
+
+.thumbnail {
+  display: block;
+  position: relative;
+  padding-bottom: 50%;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.thumbnail img {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 #mainNav {
   border-color: rgba(34, 34, 34, 0.05);
   background-color: white;
@@ -400,10 +423,6 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 
 .text-primary {
   color: #aa1352;
-}
-
-.bg_taltech_secondary {
-  background: #e4067e;
 }
 
 .no-gutter > [class*='col-'] {
