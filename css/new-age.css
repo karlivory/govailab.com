@@ -67,19 +67,8 @@ section h2 {
   background: #FFFFFF;
 }
 
-.thumbnail {
-  display: block;
-  position: relative;
-  padding-bottom: 50%;
-  overflow: hidden;
-  border-radius: 5px;
-}
-
-.thumbnail img {
-  position: absolute;
-  width: 100%;
-  height: auto;
-  display: block;
+.bg_taltech_purple {
+  background: #342b60;
 }
 
 #mainNav {
