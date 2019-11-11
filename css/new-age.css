@@ -51,6 +51,13 @@ p {
   margin-bottom: 20px;
 }
 
+ul {
+  list-style-type: none;
+  font-size: 20px;
+  color: #342b60;
+  margin-bottom: 5px;
+}
+
 section {
   padding: 100px 0;
 }
@@ -69,6 +76,11 @@ section h2 {
 
 .bg_taltech_purple {
   background: #342b60;
+}
+
+.p_justify_pink {
+  color: #342b60;
+  text-align: justify;
 }
 
 #mainNav {
