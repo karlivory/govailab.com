@@ -30,8 +30,11 @@
   var navbarCollapse = function() {
     if ($("#mainNav").offset().top > 100) {
       $("#mainNav").addClass("navbar-shrink");
+      $("#logoMain").attr("src","./img/TalTech_Logo.png");
     } else {
       $("#mainNav").removeClass("navbar-shrink");
+      $("#logoMain").attr("src","./img/TalTech_logo_valge.png");
+
     }
   };
   // Collapse now if page is not at top
