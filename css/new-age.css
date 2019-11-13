@@ -83,13 +83,14 @@ section h2 {
   text-align: justify;
 }
 
-.p_meeskond_big_font {
-  font-size: 25px;
-}
-
 .li_meist {
   font-size: 18px;
   color: #342b60;
+}
+
+.li_komp {
+  font-size: 18px;
+  color: #FFFFFF;
 }
 
 #mainNav {
